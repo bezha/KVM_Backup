@@ -1,5 +1,7 @@
 Backup KVM VPS
 
+Based on https://github.com/sayajin101/KVM-LVM-Backup-Script
+
 - [x] In file kvm-lvm-backup_centos7.sh change KVMLVM to proper VG name (pvs -a)
 - [x] In file backup.sh change KVM name
 - [x] Set up Cron job: 15 00 * * * /root/backup/backup.sh
